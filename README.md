@@ -34,10 +34,11 @@ research-agent-interface
 
 Then `GET http://127.0.0.1:8000/health`.
 
-PostgreSQL:
+PostgreSQL and migrations:
 
 ```text
-docker compose up postgres
+docker compose up postgres -d
+alembic upgrade head
 ```
 
 ## License

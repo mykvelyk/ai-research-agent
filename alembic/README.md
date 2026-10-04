@@ -1,3 +1,8 @@
 # Alembic
 
-Migration scripts will live here after the schema is designed. Do not invent tables in this folder yet.
+```text
+docker compose up postgres -d
+alembic upgrade head
+```
+
+`DATABASE_URL` in `.env` uses `postgresql+asyncpg://...`. Alembic converts it to `postgresql+psycopg://...`.
