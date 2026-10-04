@@ -1,5 +1,5 @@
-# User documentation
+# Documentation
 
-Guides for running and using the software will go here when the application exists (self-host, configuration, operations).
+Operator and user guides will expand here as features land.
 
-This folder is not a project journal.
+For local setup, see the [root README](../README.md).
